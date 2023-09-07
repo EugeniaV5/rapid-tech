@@ -1,0 +1,16 @@
+.button {
+  min-width: 125px;
+  padding: 12px;
+
+  color: var(--BaseBlue-50);
+  background-color: var(--BaseBlue-source);
+
+  &:hover,
+  &:focus {
+    background-color: var(--BaseBlue-500);
+  }
+
+  &:active {
+    background-color: var(--BaseBlue-700);
+  }
+}

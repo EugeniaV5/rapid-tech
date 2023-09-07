@@ -1,0 +1,99 @@
+<!-- Hero -->
+<section class="section hero-section">
+  <div class="container video-wrapper">
+    <video
+      playsinline
+      autoplay
+      muted
+      loop
+      poster="../img/hero/static-img-mobile.png"
+    >
+      <source
+        media="(min-width: 320px)"
+        src="../video/video-mobile.webm"
+        type="video/webm"
+      />
+      <source
+        media="(min-width: 320px)"
+        src="../video/video-mobile.mp4"
+        type="video/mp4"
+      />
+      <!-- <source
+        media="(min-width: 1280px)"
+        src="../video/video-desktop.webm"
+        type="video/webm"
+      />
+      <source
+        media="(min-width: 1280px)"
+        src="../video/video-desktop.mp4"
+        type="video/mp4"
+      /> -->
+
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="hero-container">
+      <div class="hero__text-wrapper">
+        <h1 class="hero-title">
+          Maritime engineering services & technical repairs for vessels
+        </h1>
+        <p class="hero__sub-title">
+          The highest quality service, on time and on budget.
+        </p>
+      </div>
+
+      <!-- Slides -->
+      <div class="swiper">
+        <div class="swiper-wrapper hero__slider-wrapper">
+
+          <!-- 1 slide -->
+          <div class="hero__slide swiper-slide">
+            <div class="slide__text-side">
+              <h3 class="slide__title">Main Engine</h3>
+              <p class="slide__text">Overhauling (all makers)</p>
+            </div>
+            <div class="slide__img-side">
+              <div class="swiper-buttons">
+                <div class="prev swiper-icons">
+                  <svg
+                    class="hero__swipe-btns-svg"
+                    width="18px"
+                    height="18px"
+                  >
+                    <use href="./img/sprite.svg#caret-left"></use>
+                  </svg>
+                </div>
+                <div class="next swiper-icons">
+                  <svg
+                    class="hero__swipe-btns-svg"
+                    width="18px"
+                    height="18px"
+                  >
+                    <use href="./img/sprite.svg#caret-right"></use>
+                  </svg>
+                </div>
+              </div>
+              <!-- <picture class="slide__pic"> -->
+                
+                <!-- <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./img/hero/hero-slide-1.jpg    1x,
+                    ./img/hero/hero-slide-1@2x.jpg 2x
+                  " /> -->
+                <img
+                  src="./img/hero/hero-slide-1.jpg"
+                  alt="ship"
+                  class="slide__img"
+                  min-width="128px"
+                  height="175px"
+              />
+            <!-- </picture> -->
+            </div>
+<!-- end of 1 slide -->
+       
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
