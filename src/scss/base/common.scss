@@ -58,6 +58,10 @@ button::-moz-focus-inner {
 .section {
   padding-top: 64px;
   padding-bottom: 64px;
+  @media screen and (min-width: 1280px) {
+    padding-top: 124px;
+    padding-bottom: 124px;
+  }
 }
 
 .container {
