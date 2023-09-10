@@ -1,0 +1,28 @@
+.policy__section {
+  margin-top: 80px;
+}
+
+.policy__title {
+  margin-bottom: 16px;
+  @include font(700, 16px, 20.8px);
+  color: var(--Graphite-source);
+
+  @media screen and (min-width: 1280px) {
+    @include font(700, 32px, 48px);
+  }
+}
+
+.policy__text {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  @include font(400, 14px, 18.2px);
+  color: var(--Graphite-900);
+
+  @media screen and (min-width: 1280px) {
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+    @include font(400, 16px, 20.8px);
+  }
+}

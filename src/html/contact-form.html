@@ -1,0 +1,57 @@
+<!-- Contact form -->
+<section class="section contact-form__section" id="contacts">
+  <div class="container contact-form__container">
+    <h2 class="visually-hidden">Contact form</h2>
+    <div class="contact-form__text-wrapper">
+      <p class="contact-form__main-text">
+        Want to know more about our services?
+      </p>
+      <p class="contact-form__text">
+        For a consultation, please contact us in a way that is convenient for
+        you. Our team will be happy to assist you with your needs.
+      </p>
+    </div>
+    <div class="contact-form__right-side">
+      <form action="#" class="form">
+        <div class="form__fields-wrapper">
+          <span class="form__input-wrapper">
+            <input
+              class="form__input tel"
+              type="tel"
+              required
+              name="userPhone"
+              pattern="[0-9]{10}"
+              title="0960000000"
+              placeholder="Phone number"
+            />
+            <svg class="input__svg" width="14px" height="14px">
+              <use href="./img/sprite.svg#phone"></use>
+            </svg>
+          </span>
+
+          <span class="form__input-wrapper">
+            <input
+              class="form__input mail"
+              type="email"
+              required
+              name="userEmail"
+              placeholder="Email"
+            />
+            <svg class="input__svg" width="14px" height="14px">
+              <use href="./img/sprite.svg#mail"></use>
+            </svg>
+          </span>
+        </div>
+        <button type="submit" class="button form__button">
+          <span class="form__button-text">Get a consultation</span>
+        </button>
+      </form>
+      <p class="contact-form__text cta__cred">
+        By clicking Sign Up you're confirming that you agree with our
+      </p>
+      <a class="contact-form__text contact-form__link cta__cred" href=""
+        >Terms and Conditions</a
+      >
+    </div>
+  </div>
+</section>

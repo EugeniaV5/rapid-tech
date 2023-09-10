@@ -1,0 +1,118 @@
+.footer__section {
+  position: relative;
+  padding-bottom: 32px;
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+.footer__container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 95%;
+    // min-width: 256px;
+    // max-width: 1215px;
+    height: 1px;
+
+    // padding-left: 32px;
+    // padding-right: 32px;
+
+    background: var(--Graphite-100);
+
+    @media screen and (min-width: 1280px) {
+      max-width: 1540px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    // max-width: 1644px;
+  }
+  //   border-bottom: 1px solid var(--Graphite-100);
+}
+.footer__logo-link {
+  //   margin: 0 auto;
+  //   margin-left: auto;
+
+  margin-bottom: 38px;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 0;
+  }
+}
+
+.footer_nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 0;
+  }
+}
+
+.footer_nav-item {
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  @include font(400, 14px, 18.2px);
+  color: var(--Graphite-source);
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: var(--Graphite-700);
+  }
+
+  &:active {
+    color: var(--BaseBlue-source);
+  }
+
+  @media screen and (min-width: 1280px) {
+    &:not(:last-child) {
+      margin-right: 32px;
+    }
+    @include font(400, 20px, 26px);
+
+    text-decoration: none;
+  }
+}
+
+.footer__social-list {
+  display: flex;
+}
+
+.footer__social-item {
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+.footer__social-logo {
+  width: 24px;
+  height: 24px;
+  fill: var(--Graphite-source);
+
+  &:hover,
+  &:focus {
+    fill: var(--Graphite-700);
+  }
+
+  &:active {
+    fill: var(--BaseBlue-source);
+  }
+}
