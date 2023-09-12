@@ -38,5 +38,7 @@
     "sass": "^1.62.1",
     "webp-converter": "2.2.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "swiper": "^10.2.0"
+  }
 }

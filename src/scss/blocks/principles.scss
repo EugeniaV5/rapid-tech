@@ -39,12 +39,6 @@
   }
 }
 
-// .principles__text-wrapper {
-//   @media screen and (min-width: 624px) {
-//     width: 256px;
-//   }
-// }
-
 .principles__main-text {
   margin-bottom: 16px;
 
@@ -74,7 +68,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    // min-width: 528px;
   }
   @media screen and (min-width: 624px) {
     flex-direction: column;

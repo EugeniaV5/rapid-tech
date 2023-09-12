@@ -18,17 +18,6 @@
         src="../video/video-mobile.mp4"
         type="video/mp4"
       />
-      <!-- <source
-        media="(min-width: 1280px)"
-        src="../video/video-desktop.webm"
-        type="video/webm"
-      />
-      <source
-        media="(min-width: 1280px)"
-        src="../video/video-desktop.mp4"
-        type="video/mp4"
-      /> -->
-
       Your browser does not support the video tag.
     </video>
 
@@ -42,58 +31,149 @@
         </p>
       </div>
 
-      <!-- Slides -->
-      <div class="swiper">
-        <div class="swiper-wrapper hero__slider-wrapper">
-
-          <!-- 1 slide -->
-          <div class="hero__slide swiper-slide">
+      <!-- Swiper -->
+      <div class="swiper hero__swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper hero__slider">
+          <!-- Slides -->
+          <!-- 1 -->
+          <div class="swiper-slide hero__slide">
             <div class="slide__text-side">
               <h3 class="slide__title">Main Engine</h3>
               <p class="slide__text">Overhauling (all makers)</p>
             </div>
             <div class="slide__img-side">
-              <div class="swiper-buttons">
-                <div class="prev swiper-icons">
-                  <svg
-                    class="hero__swipe-btns-svg"
-                    width="18px"
-                    height="18px"
-                  >
-                    <use href="./img/sprite.svg#caret-left"></use>
-                  </svg>
-                </div>
-                <div class="next swiper-icons">
-                  <svg
-                    class="hero__swipe-btns-svg"
-                    width="18px"
-                    height="18px"
-                  >
-                    <use href="./img/sprite.svg#caret-right"></use>
-                  </svg>
-                </div>
-              </div>
-              <!-- <picture class="slide__pic"> -->
-                
-                <!-- <source
-                  media="(min-width: 320px)"
-                  srcset="
-                    ./img/hero/hero-slide-1.jpg    1x,
-                    ./img/hero/hero-slide-1@2x.jpg 2x
-                  " /> -->
-                <img
-                  src="./img/hero/test.png"
-                  alt="ship"
-                  class="slide__img"
-                  min-width="128px"
-                  height="175px"
+              <img
+                src="./img/hero/slide-1.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
               />
-            <!-- </picture> -->
             </div>
-<!-- end of 1 slide -->
-       
+          </div>
+          <!-- end -->
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-2">
+              <h3 class="slide__title">Auxiliary Engine</h3>
+              <p class="slide__text">Overhauling (all makers)</p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="./img/hero/slide-2.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+              />
+            </div>
+          </div>
+
+          <!-- end -->
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-3">
+              <h3 class="slide__title">Riding Squads</h3>
+              <p class="slide__text">For paint, repair or welding</p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="./img/hero/slide-3.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+              />
+            </div>
+          </div>
+
+          <!-- end -->
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-4">
+              <h3 class="slide__title">Dry Dock Teams assisting</h3>
+              <p class="slide__text">On special retrofit or repair projects</p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="./img/hero/slide-4.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+              />
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- Slide 5 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-5">
+              <h3 class="slide__title">On-site technical repairs</h3>
+              <p class="slide__text-short">for all types of vessels</p>
+              <p class="slide__text-extended">
+                for all types of vessels, including emergency repairs and
+                maintenance services
+              </p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="./img/hero/slide-5.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+              />
+            </div>
+          </div>
+
+          <!-- end -->
+
+          <!-- Slide 6 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-6">
+              <h3 class="slide__title">Structural analysis and repair</h3>
+
+              <p class="slide__text-short">welding and fabrication services</p>
+              <p class="slide__text-extended">
+                including welding and fabrication services
+              </p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="./img/hero/slide-6.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+              />
+            </div>
+          </div>
+          <!-- Slide 6 end -->
         </div>
       </div>
+
+      <!-- Navigation -->
+      <div class="swiper-buttons">
+        <div class="prev swiper-icons">
+          <svg class="hero__swipe-btns-svg" width="18px" height="18px">
+            <use href="./img/sprite.svg#caret-left"></use>
+          </svg>
+        </div>
+        <div class="next swiper-icons">
+          <svg class="hero__swipe-btns-svg" width="18px" height="18px">
+            <use href="./img/sprite.svg#caret-right"></use>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination hero__pagination"></div>
     </div>
+    <!-- end of swiper -->
   </div>
 </section>

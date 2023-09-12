@@ -8,20 +8,10 @@
   background-position: center;
   background-size: cover;
 
-  background-image: url("../img/contact-form/contact-form-bg-mobile.jpg");
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
-    screen and (min-resolution: 192dpi) and (min-width: 280px),
-    screen and (min-resolution: 2dppx) and (min-width: 280px) {
-    background-image: url("../img/contact-form/contact-form-bg-mobile@2x.jpg");
-  }
+  background-image: url("../img/contact-form/contact-form-bg-mobile@3x.jpg");
 
   @media screen and (min-width: 1280px) {
-    background-image: url("../img/contact-form/contact-form-bg-desktop.jpg");
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
-      screen and (min-resolution: 192dpi) and (min-width: 280px),
-      screen and (min-resolution: 2dppx) and (min-width: 280px) {
-      background-image: url("../img/contact-form/contact-form-bg-desktop@2x.jpg");
-    }
+    background-image: url("../img/contact-form/contact-form-bg-desktop@2x.jpg");
   }
 }
 
@@ -43,10 +33,6 @@
   margin-bottom: 48px;
   @media screen and (min-width: 624px) {
     margin-bottom: 0;
-  }
-
-  @media screen and (min-width: 1280px) {
-    // width: 476px;
   }
 }
 
@@ -116,15 +102,16 @@
   font-family: var(--font);
   @include font(400, 14px, 18.2px);
 
-  color: var(--Graphite-500);
+  color: var(--Graphite-source);
   background: var(--White-100);
 
-  //   outline: none;
+  &::placeholder {
+    color: var(--Graphite-500);
+  }
 
   &:focus,
-  &:active + &::placeholder {
+  &:active {
     outline-style: none;
-    color: var(--Graphite-source);
   }
 
   @media screen and (min-width: 1280px) {
@@ -140,9 +127,6 @@
   z-index: 5;
   top: 50%;
   left: 12px;
-
-  //   top: 50%;
-  //   left: 16px;
 
   transform: translateY(-50%);
   fill: var(--Graphite-500);

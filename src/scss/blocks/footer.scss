@@ -19,12 +19,10 @@
     content: "";
     bottom: 0;
     width: 95%;
-    // min-width: 256px;
-    // max-width: 1215px;
+ 
     height: 1px;
 
-    // padding-left: 32px;
-    // padding-right: 32px;
+
 
     background: var(--Graphite-100);
 
@@ -37,13 +35,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    // max-width: 1644px;
   }
-  //   border-bottom: 1px solid var(--Graphite-100);
 }
 .footer__logo-link {
-  //   margin: 0 auto;
-  //   margin-left: auto;
+
 
   margin-bottom: 38px;
 

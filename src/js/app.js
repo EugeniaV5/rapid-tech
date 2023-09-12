@@ -1,7 +1,4 @@
-// import { isWebp } from "./is-webp";
-// import * as modulesFunctions from "./modules/functions";
-// isWebp();
-// isWebp();
+
 
 function testWebPFunction() {
   function testWebP(callback) {
@@ -20,4 +17,3 @@ function testWebPFunction() {
 
 testWebPFunction();
 
-console.log("hello");

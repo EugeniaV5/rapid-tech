@@ -14,8 +14,6 @@
 .help__container {
   position: relative;
 
-  //   text-align: center;
-
   &::after {
     position: absolute;
     content: url("../../img/help/help-bg-vector.png");
@@ -28,12 +26,7 @@
 
     left: 0px;
     top: -52px;
-    // left: 0;
-    // bottom: 0;
-    // left: 0;
-    // top: 0;
-    // left: -185px;
-    // top: 53px;
+
     @media screen and (min-width: 449px) {
       top: -72px;
     }
@@ -52,58 +45,7 @@
   @media screen and (min-width: 1280px) {
     width: 1280px;
   }
-  //   text-align: center;
 }
-
-// .help__content-wrapper {
-//   display: flex;
-//   flex-direction: column;
-//   //   justify-content: center;
-//   //   align-items: center;
-
-//   @media screen and (min-width: 449px) {
-//     flex-direction: row;
-//     max-width: 458px;
-
-//     margin: 0 auto;
-//   }
-// }
-
-// .help__text {
-//   //   width: 256px;
-
-//   margin-bottom: 24px;
-
-//   text-align: center;
-
-//   @include font(700, 16px, 20.8px);
-//   color: var(--BaseBlue-50);
-
-//   @media screen and (min-width: 449px) {
-//     // max-width: 329px;
-//     margin-right: 24px;
-//     margin-bottom: 0;
-//   }
-// }
-
-// .help__button {
-//   //   display: inline-block;
-//   //   width: 105px;
-//   padding: 8px;
-//   margin: 0 auto;
-
-//   color: var(--BaseBlue-50);
-//   background-color: var(--BaseBlue-source);
-
-//   @include font(400, 14px, 18.2px);
-//   text-align: center;
-//   text-transform: uppercase;
-//   text-decoration: underline;
-
-//   @media screen and (min-width: 449px) {
-//     width: 105px;
-//   }
-// }
 
 .help__content-wrapper {
   display: flex;
@@ -124,7 +66,6 @@
   @include font(700, 16px, 20.8px);
   color: var(--BaseBlue-50);
   text-align: center;
-  // display: inline-block;
   @media screen and (min-width: 449px) {
     width: 100%;
     max-width: 329px;
@@ -142,22 +83,29 @@
 }
 
 .help__button {
-  //   // display: inline-block;
   min-width: 105px;
-  // height: 34px;
-  //   // padding: 8px;
+
   @media screen and (min-width: 449px) {
-    // width: 105px;
   }
 }
 
 .help__link {
   width: 100%;
   padding: 7px;
-  // height: auto;
 
   color: var(--BaseBlue-50);
   background-color: var(--BaseBlue-source);
+
+  &:hover,
+  &:focus {
+    background-color: var(--BaseBlue-500);
+    text-decoration: underline;
+  }
+
+  &:active {
+    background-color: var(--BaseBlue-700);
+    text-decoration: underline;
+  }
 
   @include font(400, 14px, 18.2px);
   text-align: center;
