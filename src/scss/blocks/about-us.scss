@@ -9,7 +9,12 @@
     display: flex;
   }
 }
-
+.about-us__title {
+  width: fit-content;
+  @media screen and (min-width: 1280px) {
+    // width: 238px;
+  }
+}
 .about-us__img-wrapper {
   height: 100%;
 

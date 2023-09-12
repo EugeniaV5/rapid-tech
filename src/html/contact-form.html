@@ -1,6 +1,6 @@
 <!-- Contact form -->
 <section class="section contact-form__section" id="contacts">
-  <div class="container contact-form__container">
+  <div class="container contact-form__container opacity">
     <h2 class="visually-hidden">Contact form</h2>
     <div class="contact-form__text-wrapper">
       <p class="contact-form__main-text">
@@ -12,20 +12,27 @@
       </p>
     </div>
     <div class="contact-form__right-side">
-      <form action="#" class="form">
+      <div id="note-1"></div>
+      <form
+        action="#"
+        class="form"
+        id="ajax-contact-form-1"
+        action=""
+        data-form-validate="true"
+      >
         <div class="form__fields-wrapper">
           <span class="form__input-wrapper">
             <input
               class="form__input tel"
               type="tel"
               required
-              name="userPhone"
-              pattern="[0-9]{10}"
-              title="0960000000"
+              title="+38(999) 999-99-99"
               placeholder="Phone number"
+              value=""
+              name="phone-client"
             />
             <svg class="input__svg" width="14px" height="14px">
-              <use href="./img/sprite.svg#phone"></use>
+              <use href="img/sprite.svg#phone"></use>
             </svg>
           </span>
 
@@ -34,14 +41,21 @@
               class="form__input mail"
               type="email"
               required
-              name="userEmail"
+              title="example@gmail.com"
+              name="email-client"
               placeholder="Email"
             />
             <svg class="input__svg" width="14px" height="14px">
-              <use href="./img/sprite.svg#mail"></use>
+              <use href="img/sprite.svg#mail"></use>
             </svg>
           </span>
         </div>
+        <input type="hidden" name="url" />
+        <input
+          type="hidden"
+          id="g-recaptcha-response"
+          name="g-recaptcha-response"
+        />
         <button type="submit" class="button form__button">
           <span class="form__button-text">Get a consultation</span>
         </button>

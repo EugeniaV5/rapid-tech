@@ -151,13 +151,13 @@ video {
   @include font(400, 14px, 18.2px);
   color: rgba(255, 255, 255, 0.5);
 
-  @media screen and (min-width: 509px) {
+  @media screen and (min-width: 510px) {
     display: none;
   }
   @media screen and (min-width: 624px) {
     display: inline-block;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 808px) {
     display: none;
   }
 }
@@ -172,7 +172,7 @@ video {
   @media screen and (min-width: 624px) {
     display: none;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 808px) {
     display: inline-block;
   }
 }
@@ -198,48 +198,6 @@ video {
   right: 0px;
   width: 50%;
   bottom: 70px;
-
-  @media screen and (min-width: 358px) {
-    bottom: 70px;
-  }
-
-  @media screen and (min-width: 624px) {
-    bottom: 104px;
-    width: 24%;
-  }
-
-  @media screen and (min-width: 659px) {
-    bottom: 104px;
-    width: 25%;
-  }
-  @media screen and (min-width: 682px) {
-    width: 26%;
-  }
-
-  @media screen and (min-width: 720px) {
-    width: 27%;
-  }
-  @media screen and (min-width: 760px) {
-    width: 28%;
-  }
-  @media screen and (min-width: 800px) {
-    width: 29%;
-  }
-  @media screen and (min-width: 840px) {
-    width: 30%;
-  }
-  @media screen and (min-width: 880px) {
-    width: 31%;
-  }
-  @media screen and (min-width: 940px) {
-    width: 32%;
-  }
-  @media screen and (min-width: 969px) {
-    width: 292px;
-  }
-  @media screen and (min-width: 1280px) {
-    bottom: 64px;
-  }
 }
 
 .swiper-icons {
@@ -259,218 +217,8 @@ video {
   position: absolute;
   width: 98px !important;
   left: 16px !important;
-
-  @media screen and (min-width: 624px) {
-    left: 316px !important;
-    bottom: 45px !important;
-  }
-  @media screen and (min-width: 636px) {
-    left: 316px !important;
-  }
-  @media screen and (min-width: 636px) {
-    left: 316px !important;
-  }
-  @media screen and (min-width: 734px) {
-    left: 326px !important;
-  }
-  @media screen and (min-width: 784px) {
-    left: 326px !important;
-  }
-  @media screen and (min-width: 828px) {
-    left: 336px !important;
-  }
-  @media screen and (min-width: 930px) {
-    left: 336px !important;
-  }
-  @media screen and (min-width: 943px) {
-    left: 346px !important;
-  }
-  @media screen and (min-width: 976px) {
-    left: 356px !important;
-  }
-  @media screen and (min-width: 988px) {
-    left: 366px !important;
-  }
-  @media screen and (min-width: 998px) {
-    left: 376px !important;
-  }
-  @media screen and (min-width: 1008px) {
-    left: 386px !important;
-  }
-  @media screen and (min-width: 1018px) {
-    left: 396px !important;
-  }
-
-  @media screen and (min-width: 1028px) {
-    left: 406px !important;
-  }
-  @media screen and (min-width: 1038px) {
-    left: 416px !important;
-  }
-  @media screen and (min-width: 1048px) {
-    left: 426px !important;
-  }
-  @media screen and (min-width: 1058px) {
-    left: 436px !important;
-  }
-  @media screen and (min-width: 1068px) {
-    left: 446px !important;
-  }
-  @media screen and (min-width: 1078px) {
-    left: 456px !important;
-  }
-  @media screen and (min-width: 1088px) {
-    left: 466px !important;
-  }
-  @media screen and (min-width: 1098px) {
-    left: 476px !important;
-  }
-  @media screen and (min-width: 1108px) {
-    left: 486px !important;
-  }
-  @media screen and (min-width: 1118px) {
-    left: 496px !important;
-  }
-  @media screen and (min-width: 1128px) {
-    left: 506px !important;
-  }
-  @media screen and (min-width: 1138px) {
-    left: 516px !important;
-  }
-  @media screen and (min-width: 1148px) {
-    left: 526px !important;
-  }
-  @media screen and (min-width: 1158px) {
-    left: 536px !important;
-  }
-  @media screen and (min-width: 1168px) {
-    left: 546px !important;
-  }
-  @media screen and (min-width: 1178px) {
-    left: 556px !important;
-  }
-  @media screen and (min-width: 1188px) {
-    left: 566px !important;
-  }
-  @media screen and (min-width: 1198px) {
-    left: 576px !important;
-  }
-  @media screen and (min-width: 1208px) {
-    left: 586px !important;
-  }
-  @media screen and (min-width: 1218px) {
-    left: 596px !important;
-  }
-  @media screen and (min-width: 1228px) {
-    left: 606px !important;
-  }
-  @media screen and (min-width: 1238px) {
-    left: 616px !important;
-  }
-  @media screen and (min-width: 1248px) {
-    left: 626px !important;
-  }
-  @media screen and (min-width: 1258px) {
-    left: 636px !important;
-  }
-  @media screen and (min-width: 1268px) {
-    left: 646px !important;
-  }
-  @media screen and (min-width: 1278px) {
-    left: 656px !important;
-  }
-
-  @media screen and (min-width: 1280px) {
-    left: 620px !important;
-    bottom: 16px !important;
-  }
-
-  @media screen and (min-width: 1288px) {
-    left: 620px !important;
-  }
-  @media screen and (min-width: 1298px) {
-    left: 640px !important;
-  }
-  @media screen and (min-width: 1308px) {
-    left: 650px !important;
-  }
-  @media screen and (min-width: 1318px) {
-    left: 660px !important;
-  }
-  @media screen and (min-width: 1328px) {
-    left: 670px !important;
-  }
-  @media screen and (min-width: 1338px) {
-    left: 680px !important;
-  }
-  @media screen and (min-width: 1348px) {
-    left: 690px !important;
-  }
-  @media screen and (min-width: 1358px) {
-    left: 700px !important;
-  }
-  @media screen and (min-width: 1368px) {
-    left: 710px !important;
-  }
-  @media screen and (min-width: 1378px) {
-    left: 720px !important;
-  }
-  @media screen and (min-width: 1388px) {
-    left: 730px !important;
-  }
-  @media screen and (min-width: 1398px) {
-    left: 740px !important;
-  }
-  @media screen and (min-width: 1408px) {
-    left: 750px !important;
-  }
-  @media screen and (min-width: 1418px) {
-    left: 760px !important;
-  }
-  @media screen and (min-width: 1428px) {
-    left: 770px !important;
-  }
-  @media screen and (min-width: 1438px) {
-    left: 780px !important;
-  }
-  @media screen and (min-width: 1448px) {
-    left: 790px !important;
-  }
-  @media screen and (min-width: 1458px) {
-    left: 800px !important;
-  }
-  @media screen and (min-width: 1468px) {
-    left: 810px !important;
-  }
-  @media screen and (min-width: 1478px) {
-    left: 820px !important;
-  }
-  @media screen and (min-width: 1488px) {
-    left: 830px !important;
-  }
-  @media screen and (min-width: 1498px) {
-    left: 840px !important;
-  }
-  @media screen and (min-width: 1508px) {
-    left: 850px !important;
-  }
-  @media screen and (min-width: 1518px) {
-    left: 860px !important;
-  }
-  @media screen and (min-width: 1528px) {
-    left: 870px !important;
-  }
-
-  @media screen and (min-width: 1538px) {
-    left: 880px !important;
-  }
-  @media screen and (min-width: 1548px) {
-    left: 880px !important;
-  }
-  @media screen and (min-width: 1558px) {
-    left: 875px !important;
-  }
 }
+
 .swiper-pagination-horizontal {
   width: 94px;
 }

@@ -22,6 +22,13 @@
   }
 }
 
+.principles__title {
+  width: fit-content;
+  @media screen and (min-width: 1280px) {
+    // width: 267px;
+  }
+}
+
 .principle__img-wrapper {
   width: 256px;
   @media screen and (min-width: 1280px) {

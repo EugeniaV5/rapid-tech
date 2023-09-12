@@ -22,6 +22,7 @@
 }
 
 .values__title {
+  width: fit-content;
   @media screen and (min-width: 516px) {
     min-width: 166px;
     margin-bottom: 0;
@@ -29,6 +30,7 @@
   }
 
   @media screen and (min-width: 1280px) {
+    min-width: 295px;
     margin-bottom: 0;
     margin-right: 124px;
   }
