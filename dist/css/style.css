@@ -490,7 +490,7 @@ video {
 
 .slide__text-side::after {
   position: absolute;
-  content: url("img/hero/slide-vector.png");
+  content: url("../img/hero/slide-vector.png");
   width: 366px;
   height: 238px;
   z-index: 9;
@@ -698,7 +698,7 @@ video {
 
 .card__text-block::after {
   position: absolute;
-  content: url("img/services/card-vector.png");
+  content: url("../img/services/card-vector.png");
   width: 366px;
   height: 238px;
   z-index: 9;
@@ -844,7 +844,7 @@ video {
 
 .help__container::after {
   position: absolute;
-  content: url("img/help/help-bg-vector.png");
+  content: url("../img/help/help-bg-vector.png");
   -o-object-position: left;
   object-position: left;
   width: 472px;
@@ -1680,7 +1680,7 @@ video {
   }
 
   .card__text-block::after {
-    content: url("img/services/card-vector-big.png");
+    content: url("../img/services/card-vector-big.png");
     top: 4px;
   }
 
@@ -1939,7 +1939,7 @@ video {
   }
 
   .help__container::after {
-    content: url("img/help/help-vector-desktop.png");
+    content: url("../img/help/help-vector-desktop.png");
     width: 677.266px;
     height: 267px;
     left: -320px;

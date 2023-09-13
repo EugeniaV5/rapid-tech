@@ -16,7 +16,7 @@
 
   &::after {
     position: absolute;
-    content: url("img/help/help-bg-vector.png");
+    content: url("../img/help/help-bg-vector.png");
 
     object-position: left;
 
@@ -34,7 +34,7 @@
       top: -77px;
     }
     @media screen and (min-width: 1280px) {
-      content: url("img/help/help-vector-desktop.png");
+      content: url("../img/help/help-vector-desktop.png");
       width: 677.266px;
       height: 267px;
       left: -320px;
