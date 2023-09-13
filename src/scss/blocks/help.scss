@@ -83,6 +83,8 @@
 }
 
 .help__button {
+  position: relative;
+  z-index: 10;
   min-width: 105px;
 
   @media screen and (min-width: 449px) {
