@@ -7,11 +7,7 @@
     mobContact: document.querySelector(".mobile-nav__contact-link"),
   };
 
-  refs.openMenuBtn.addEventListener(
-    "click",
-    toggleModal,
-    console.log("hello2")
-  );
+  refs.openMenuBtn.addEventListener("click", toggleModal);
   refs.closeMenuBtn.addEventListener("click", toggleModal);
 
   refs.link.forEach((anchor) => {
@@ -25,5 +21,4 @@
   function toggleModal() {
     refs.menu.classList.toggle("is-open");
   }
-
 })();

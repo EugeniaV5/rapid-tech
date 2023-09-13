@@ -176,8 +176,6 @@
   font-family: var(--font);
   @include font(400, 14px, 18.2px);
 
-  text-decoration: underline;
-
   @media screen and (min-width: 1280px) {
     @include font(400, 16px, 20.8px);
   }
