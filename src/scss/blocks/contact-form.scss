@@ -144,8 +144,15 @@
   transform: translateY(-50%);
   fill: var(--Graphite-500);
 
-  .form__input:focus,
+  .form__input:focus + & {
+    fill: var(--Graphite-source);
+  }
+
   .form__input:active + & {
+    fill: var(--Graphite-source);
+  }
+
+  .form__input:not(:placeholder-shown) + & {
     fill: var(--Graphite-source);
   }
 
@@ -153,10 +160,6 @@
     width: 16px;
     height: 16px;
   }
-}
-
-.form__input:not(:placeholder-shown) + .input__svg {
-  fill: var(--Graphite-source);
 }
 
 .form__button {

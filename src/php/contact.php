@@ -5,7 +5,7 @@ define('SECRET_KEY', '6LeS8ygmAAAAAEPOT1uc8XGNwLUWAu8Z8Uewjeyg'); /* секре�
 define("TELEGRAM_TOKEN", "");
 define("TELEGRAM_CHAT_ID", "");
 define("SUBJECT", "Letter from the RapidTech website "); /* тема письма */
-define("EMAIL_TO", "dn050493vem@gmail.com"); /* куда отправляем */
+define("EMAIL_TO", "service@rapidtech-marine.com"); /* куда отправляем */
 
 $post = (!empty($_POST)) ? true : false;
 
