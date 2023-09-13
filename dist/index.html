@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="img/favico.svg" />
+  <!-- <script src="https://www.google.com/recaptcha/api.js?render="></script> -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.min.css" />
+
+  <title>RAPIDTECH</title>
+</head>
+
+
+  <body>
+    <!-- Header section -->
+<!-- Mobile Header -->
+<header class="header">
+  <div class="container header__container">
+    <a class="header__logo-link" href="./">
+      <svg class="header__logo" width="91px" height="26px">
+        <use href="img/sprite.svg#small-logo"></use>
+      </svg>
+    </a>
+    <button class="burger-btn" type="button" data-menu-open>
+      <svg class="burger-btn__icon" width="24px" height="24px">
+        <use href="img/sprite.svg#nine-dots"></use>
+      </svg>
+    </button>
+
+    <a class="header__logo-link-desktop" href="./">
+      <svg class="header__logo-desktop" width="140px" height="40px">
+        <use href="img/sprite.svg#big-logo"></use>
+      </svg>
+    </a>
+
+    <!-- Desktop Header -->
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a class="header__link" href="./#principles">Principles</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="./#services">Services</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="./#about-us">About Us</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="./#values">Values</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="./#contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="header__contact-link button" href="./#contacts">Contact us</a>
+  </div>
+</header>
+ <!-- Mobile pop-up menu -->
+<div class="mobile-menu" data-menu>
+  <div class="mobile-menu__head-wrapper">
+    <a href="./">
+      <svg class="header__logo" width="91px" height="26px">
+        <use href="img/sprite.svg#small-logo"></use>
+      </svg>
+    </a>
+    <button class="burger-btn" type="button" data-menu-close>
+      <svg class="burger-btn__icon" width="24px" height="24px">
+        <use href="img/sprite.svg#x"></use>
+      </svg>
+    </button>
+  </div>
+  <nav>
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#principles">Principles</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#services">Services</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#about-us">About Us</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#values">Values</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#contacts">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+  <a class="mobile-nav__contact-link" href="./#contacts">Contact us</a>
+</div>
+
+    <main>
+      <!-- Hero -->
+<section class="section hero-section">
+  <div class="container video-wrapper">
+    <video
+      playsinline
+      autoplay
+      muted
+      loop
+      poster="img/hero/static-img-mobile.png"
+    >
+      <source
+        media="(min-width: 320px)"
+        src="video/video-mobile.webm"
+        type="video/webm"
+      />
+      <source
+        media="(min-width: 320px)"
+        src="video/video-mobile.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="hero-container">
+      <div class="hero__text-wrapper">
+        <h1 class="hero-title">
+          Maritime engineering services & technical repairs for vessels
+        </h1>
+        <p class="hero__sub-title">
+          The highest quality service, on time and on budget.
+        </p>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper hero__swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper hero__slider">
+          <!-- Slides -->
+          <!-- 1 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side">
+              <h3 class="slide__title">Main Engine</h3>
+              <p class="slide__text">Overhauling (all makers)</p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="img/hero/slide-1.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-2">
+              <h3 class="slide__title">Auxiliary Engine</h3>
+              <p class="slide__text">Overhauling (all makers)</p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="img/hero/slide-2.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- end -->
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-3">
+              <h3 class="slide__title">Riding Squads</h3>
+              <p class="slide__text">For paint, repair or welding</p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="img/hero/slide-3.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- end -->
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-4">
+              <h3 class="slide__title">Dry Dock Teams assisting</h3>
+              <p class="slide__text">On special retrofit or repair projects</p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="img/hero/slide-4.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- Slide 5 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-5">
+              <h3 class="slide__title">On-site technical repairs</h3>
+              <p class="slide__text-short">for all types of vessels</p>
+              <p class="slide__text-extended">
+                for all types of vessels, including emergency repairs and
+                maintenance services
+              </p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="img/hero/slide-5.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- Slide 6 -->
+          <div class="swiper-slide hero__slide">
+            <div class="slide__text-side card-6">
+              <h3 class="slide__title">Structural analysis and repair</h3>
+
+              <p class="slide__text-short">welding and fabrication services</p>
+              <p class="slide__text-extended">
+                including welding and fabrication services
+              </p>
+            </div>
+            <div class="slide__img-side">
+              <img
+                src="img/hero/slide-6.png"
+                alt="ship"
+                class="slide__img"
+                min-width="128px"
+                height="175px"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <!-- Slide 6 end -->
+        </div>
+        <!-- Navigation -->
+        <div class="swiper-buttons">
+          <div class="prev swiper-icons">
+            <svg class="hero__swipe-btns-svg" width="18px" height="18px">
+              <use href="img/sprite.svg#caret-left"></use>
+            </svg>
+          </div>
+          <div class="next swiper-icons">
+            <svg class="hero__swipe-btns-svg" width="18px" height="18px">
+              <use href="img/sprite.svg#caret-right"></use>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination hero__pagination"></div>
+      </div>
+    </div>
+    <!-- end of swiper -->
+  </div>
+</section>
+ <!-- Principles section -->
+<section class="section" id="principles">
+  <div class="container principles__container">
+    <div class="principles__content-wrapper">
+      <div class="principles__art-wrapper">
+        <h2 class="section-title principles__title">Principles</h2>
+        <div class="principle__img-wrapper">
+          <img
+            src="img/principles/principles-art.png"
+            alt="decorative art"
+            width="256px"
+            height="267px"
+            class="principles__art"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <div class="principles__text-wrapper">
+        <p class="principles__main-text">
+          Our team of experienced professionals is committed to delivering
+          results that exceed our clients' expectations.
+        </p>
+        <p class="principles__extra-text">
+          All our service engineers are trained and certified by relevant engine
+          makers. <br /><br />
+          The main principles of our work are:
+        </p>
+
+        <ul class="principles__list">
+          <li class="principles__item">
+            <div class="principles__icon-wrapper">
+              <svg class="principles__icon" width="24px" height="24px">
+                <use href="img/sprite.svg#castom-1" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="principles__item-title">Innovative technologies</h3>
+              <p class="principles__item-text">
+                Efficiency, saving resources and speeding up processes
+              </p>
+            </div>
+          </li>
+          <li class="principles__item">
+            <div class="principles__icon-wrapper">
+              <svg class="principles__icon" width="24px" height="24px">
+                <use href="img/sprite.svg#castom-2" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="principles__item-title">Safety</h3>
+              <p class="principles__item-text">
+                Reduces the risks of danger and provides peace of mind and
+                confidence in the future
+              </p>
+            </div>
+          </li>
+          <li class="principles__item">
+            <div class="principles__icon-wrapper">
+              <svg class="principles__icon" width="24px" height="24px">
+                <use href="img/sprite.svg#castom-3" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="principles__item-title">Еfficient</h3>
+              <p class="principles__item-text">
+                More results with less effort, optimizes the use of resources
+                and time
+              </p>
+            </div>
+          </li>
+          <li class="principles__item">
+            <div class="principles__icon-wrapper">
+              <svg class="principles__icon" width="24px" height="24px">
+                <use href="img/sprite.svg#castom-4" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="principles__item-title">Сost-effective</h3>
+              <p class="principles__item-text">
+                Achieve maximum results with minimum expenditure of resources
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Services -->
+<section class="section" id="services">
+  <div class="container services-container">
+    <div class="services__text-block">
+      <h2 class="section-title services__title">Services</h2>
+      <p class="services__main-text">
+        We оfer a comprehensive range of maritime engineering services:
+      </p>
+    </div>
+    <ul class="services__list">
+      <!-- card1 -->
+      <li class="services__card">
+        <div class="card__text-block">
+          <h3 class="card__title">Main Engine</h3>
+          <p class="card__text">Overhauling (all makers)</p>
+        </div>
+        <div class="card__img-wrapper">
+          <img
+            src="img/services/services-1.png"
+            alt="ship"
+            class="card__img"
+            min-width="256px"
+            height="125px"
+            loading="lazy"
+          />
+        </div>
+      </li>
+
+      <!-- card2 -->
+      <li class="services__card">
+        <div class="card__text-block card-2">
+          <h3 class="card__title">Auxiliary Engine</h3>
+          <p class="card__text">Overhauling (all makers)</p>
+        </div>
+        <div class="card__img-wrapper">
+          <img
+            src="img/services/services-2.png"
+            alt="ship"
+            class="card__img"
+            min-width="256px"
+            height="125px"
+            loading="lazy"
+          />
+        </div>
+      </li>
+
+      <!-- card3 -->
+      <li class="services__card">
+        <div class="card__text-block card-3">
+          <h3 class="card__title">Riding Squads</h3>
+          <p class="card__text">For paint, repair or welding</p>
+        </div>
+        <div class="card__img-wrapper">
+          <img
+            src="img/services/services-3.png"
+            alt="ship"
+            class="card__img"
+            min-width="256px"
+            height="125px"
+            loading="lazy"
+          />
+        </div>
+      </li>
+
+      <!-- card4 -->
+      <li class="services__card">
+        <div class="card__text-block card-4">
+          <h3 class="card__title">Dry Dock Teams assisting</h3>
+          <p class="card__text">On special retrofit or repair projects</p>
+        </div>
+        <div class="card__img-wrapper">
+          <img
+            src="img/services/services-4.png"
+            alt="ship"
+            class="card__img"
+            min-width="256px"
+            height="125px"
+            loading="lazy"
+          />
+        </div>
+      </li>
+
+      <!-- card5 -->
+      <li class="services__card">
+        <div class="card__text-block card-5">
+          <h3 class="card__title">On-site technical repairs</h3>
+          <p class="card__text">
+            for all types of vessels, including emergency repairs and
+            maintenance services
+          </p>
+        </div>
+        <div class="card__img-wrapper">
+          <img
+            src="img/services/services-5.png"
+            alt="ship"
+            class="card__img"
+            min-width="256px"
+            height="125px"
+            loading="lazy"
+          />
+        </div>
+      </li>
+
+      <!-- card6 -->
+      <li class="services__card">
+        <div class="card__text-block card-6">
+          <h3 class="card__title">Structural analysis and repair</h3>
+          <p class="card__text">including welding and fabrication services</p>
+        </div>
+        <div class="card__img-wrapper">
+          <img
+            src="img/services/services-6.png"
+            alt="ship"
+            class="card__img"
+            min-width="256px"
+            height="125px"
+            loading="lazy"
+          />
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+ <!-- About us -->
+<section class="section" id="about-us">
+  <div class="container about-us__container">
+    <div class="about-us__content-wrapper">
+      <div class="about-us__text-wrapper">
+        <h2 class="section-title about-us__title">About us</h2>
+        <p class="about-us__main-text">
+          RAPIDTECH is a leading provider of maritime engineering services and
+          technical repairs for vessels.
+        </p>
+        <p class="about-us__extra-text">
+          Our company was founded in 2023 by a team of experienced maritime
+          professionals with a passion for delivering the highest quality
+          service to our clients.
+        </p>
+
+        <ul class="about-us__list">
+          <li class="about-us__item">
+            <div class="about-us__icon-wrapper">
+              <svg class="about-us__icon" width="24px" height="24px">
+                <use href="img/sprite.svg#castom-5" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="about-us__item-title">Highest quality</h3>
+              <p class="about-us__item-text">
+                As a relatively new service provider, we aim to deliver the
+                highest quality to our clients to build a reputation for
+                excellence in the industry, serving clients worldwide as a
+                partner of trust on time and onv budget.
+              </p>
+            </div>
+          </li>
+          <li class="about-us__item">
+            <div class="about-us__icon-wrapper">
+              <svg class="about-us__icon" width="24px" height="24px">
+                <use href="img/sprite.svg#castom-5" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="about-us__item-title">Long-term relationships</h3>
+              <p class="about-us__item-text">
+                We believe in building enduring long-term relationships with our
+                clients and we take immense pride in consistently delivering
+                exceptional results that consistently exceed their expectations.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="about-us__img-wrapper">
+        <img
+          src="img/about-us/about-us-art.png"
+          alt="decorative art"
+          width="256px"
+          height="288px"
+          class="about-us__art"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Help -->
+<section class="section help__section">
+  <div class="container help__container">
+    <h2 class="visually-hidden">Help to contact</h2>
+
+    <div class="help__content-wrapper">
+      <p class="help__text">Need help with your maritime challenges?</p>
+      <div class="help__button">
+        <a href="./#contacts" class="help__link">Contact us</a>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Values -->
+<section class="section" id="values">
+  <div class="container values__container">
+    <div class="values__text-block">
+      <h2 class="section-title values__title">Our Values</h2>
+      <p class="values__main-text">
+        We оfer a comprehensive range of maritime engineering services:
+      </p>
+    </div>
+    <ul class="values__list">
+      <li class="values__item">
+        <h3 class="values__item-title">Safety</h3>
+        <span class="values__item-number">01</span>
+
+        <p class="values__item-text">
+          Safety is our top priority. We are committed to ensuring the safety of
+          our team, the crew onboard, and the environment.
+        </p>
+      </li>
+      <li class="values__item">
+        <h3 class="values__item-title">Integrity</h3>
+        <span class="values__item-number">02</span>
+
+        <p class="values__item-text">
+          We conduct ourselves with the highest level of integrity, honesty, and
+          transparency. We believe in doing the right thing, even when no one is
+          watching.
+        </p>
+      </li>
+      <li class="values__item">
+        <h3 class="values__item-title">Excellence</h3>
+        <span class="values__item-number">03</span>
+
+        <p class="values__item-text">
+          We strive for excellence in everything we do. We are dedicated to
+          delivering the highest quality service to our clients, on time and on
+          budget.
+        </p>
+      </li>
+      <li class="values__item">
+        <h3 class="values__item-title">Collaboration</h3>
+        <span class="values__item-number">04</span>
+
+        <p class="values__item-text">
+          We believe in working collaboratively with our clients, partners, and
+          stakeholders to achieve our shared goals. We value open communication
+          and teamwork.
+        </p>
+      </li>
+      <li class="values__item grid-col-span-2">
+        <h3 class="values__item-title">Sustainability</h3>
+        <span class="values__item-number">05</span>
+
+        <p class="values__item-text">
+          We are committed to sustainability and minimizing our impact on the
+          environment. We believe that, by being responsible stewards of the
+          environment, we can create a better future.
+        </p>
+      </li>
+      <li class="values__item grid-col-span-2">
+        <h3 class="values__item-title">Values</h3>
+        <span class="values__item-number">06</span>
+
+        <p class="values__item-text">
+          Our values are more than just words on a page - they guide everything
+          we do. By living our values, we can create long-term relationships
+          with our clients and make a positive impact in the world.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <!-- Contact form -->
+<section class="section contact-form__section" id="contacts">
+  <div class="container contact-form__container opacity">
+    <h2 class="visually-hidden">Contact form</h2>
+    <div class="contact-form__text-wrapper">
+      <p class="contact-form__main-text">
+        Want to know more about our services?
+      </p>
+      <p class="contact-form__text">
+        For a consultation, please contact us in a way that is convenient for
+        you. Our team will be happy to assist you with your needs.
+      </p>
+    </div>
+    <div class="contact-form__right-side">
+      <div id="note-1"></div>
+      <form
+        action="#"
+        class="form"
+        id="ajax-contact-form-1"
+        action=""
+        data-form-validate="true"
+      >
+        <div class="form__fields-wrapper">
+          <span class="form__input-wrapper">
+            <input
+              class="form__input tel"
+              type="tel"
+              required
+              title="+38(999) 999-99-99"
+              placeholder="Phone number"
+              value=""
+              name="phone-client"
+            />
+            <svg class="input__svg" width="14px" height="14px">
+              <use href="img/sprite.svg#phone"></use>
+            </svg>
+          </span>
+
+          <span class="form__input-wrapper">
+            <input
+              class="form__input mail"
+              type="email"
+              required
+              title="example@gmail.com"
+              name="email-client"
+              placeholder="Email"
+            />
+            <svg class="input__svg" width="14px" height="14px">
+              <use href="img/sprite.svg#mail"></use>
+            </svg>
+          </span>
+        </div>
+        <input type="hidden" name="url" />
+        <input
+          type="hidden"
+          id="g-recaptcha-response"
+          name="g-recaptcha-response"
+        />
+        <button type="submit" class="button form__button">
+          <span class="form__button-text">Get a consultation</span>
+        </button>
+      </form>
+      <p class="contact-form__text cta__cred">
+        By clicking Get a consultation you're confirming that you agree with our
+      </p>
+      <a
+        class="contact-form__text contact-form__link cta__cred"
+        href="./policy-page.html"
+        >Terms and Conditions</a
+      >
+    </div>
+  </div>
+</section>
+
+    </main>
+    <!-- Footer -->
+<footer class="section footer__section" id="section-footer">
+  <div class="container footer__container">
+    <a class="footer__logo-link" href="./">
+      <svg class="footer__logo" width="140px" height="40px">
+        <use href="img/sprite.svg#big-logo"></use>
+      </svg>
+    </a>
+    <ul class="footer_nav-list">
+      <li class="footer_nav-item"><a href="./#principles">Principles</a></li>
+      <li class="footer_nav-item"><a href="./#services">Services</a></li>
+      <li class="footer_nav-item"><a href="./#about-us">About Us</a></li>
+      <li class="footer_nav-item"><a href="./#values">Values</a></li>
+      <li class="footer_nav-item"><a href="./#contacts">Contacts</a></li>
+    </ul>
+    <address class="footer__address">
+      <p class="address__company-name">Rapidtech LTD</p>
+      <p class="address__address">
+        A.G. Leventi, THE LEVENTIS GALLERY TOWER, 13th floor, Flat/Office 1301,
+        1097, Nicosia, Cyprus
+      </p>
+      <a href="mailto:service@rapidtech-marine.com" class="address__email"
+        >service@rapidtech-marine.com</a
+      >
+    </address>
+  </div>
+</footer>
+ <!-- Credentials -->
+
+<section class="section credential__section">
+  <div class="container credential__container">
+    <a class="credentials__link" href="./policy-page.html">
+      Privacy policy & Cookie policy
+    </a>
+    <p class="credentials__text">
+      &copy; 2023 rapidtech.com | All right reserved.
+    </p>
+
+    <div class="credentials__agency-logo">
+      <a
+        href="
+https://shapoval.agency/?utm_source=dev&utm_medium=site&utm_campaign=rapidtech"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="agency__logo" width="109px" height="53px">
+          <use href="img/sprite.svg#agency-logo"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+    <script type="module" src="js/jquery-3.7.0.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/modal.js"></script>
+    <script type="module" src="js/swiper.js"></script>
+    <script type="module" src="js/jquery.maskedinput.min.js"></script>
+    <script type="module" src="js/jquery.validate.min.js"></script>
+    <script type="module" src="js/contactform.js"></script>
+  </body>
+</html>
