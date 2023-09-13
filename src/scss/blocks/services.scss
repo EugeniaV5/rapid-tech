@@ -76,7 +76,7 @@
 
   &::after {
     position: absolute;
-    content: url("../../img/services/card-vector.png");
+    content: url("img/services/card-vector.png");
 
     width: 366px;
     height: 238px;
@@ -86,7 +86,7 @@
     top: 0;
 
     @media screen and (min-width: 1088px) {
-      content: url("../../img/services/card-vector-big.png");
+      content: url("img/services/card-vector-big.png");
       top: 4px;
     }
     @media screen and (min-width: 1280px) {
