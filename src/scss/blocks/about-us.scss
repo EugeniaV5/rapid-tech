@@ -82,7 +82,11 @@
   }
   @media screen and (min-width: 912px) {
     flex-direction: row;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+    justify-content: start;
+  }
+  @media screen and (min-width: 1280px) {
+    justify-content: start;
   }
 }
 
@@ -98,11 +102,18 @@
   }
   @media screen and (min-width: 912px) {
     width: 48.48%;
+
+    &:not(:last-child) {
+      margin-right: 48px;
+      margin-bottom: 0px;
+    }
   }
 
   @media screen and (min-width: 1280px) {
     width: 226px;
-    margin-bottom: 0px;
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
   }
 }
 

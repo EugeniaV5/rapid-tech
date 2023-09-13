@@ -45,27 +45,22 @@ video {
   @media screen and (min-width: 624px) {
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    gap: 7.6%;
   }
   @media screen and (min-width: 1280px) {
     display: block;
   }
 }
 .hero__text-wrapper {
-  width: 256px;
-
   margin-bottom: 16px;
 
   color: var(--BaseBlue-50);
   @media screen and (min-width: 624px) {
-    width: 0;
-    min-width: 256px;
-
+    width: 50%;
+    margin-right: 48px;
     margin-bottom: 0;
   }
   @media screen and (min-width: 1280px) {
-    width: 914px;
+    width: 916px;
     margin-bottom: 126px;
   }
 }
@@ -90,7 +85,8 @@ video {
   @media screen and (min-width: 624px) {
     display: flex;
     justify-content: end;
-    max-width: 584px;
+    // max-width: 584px;
+    width: 50%;
 
     margin: 0;
   }
