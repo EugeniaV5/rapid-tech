@@ -1931,6 +1931,10 @@ video {
     height: auto;
   }
 
+  .about-us__text-wrapper {
+    margin-right: 124px;
+  }
+
   .about-us__main-text {
     font-weight: 700;
     font-size: 32px;
