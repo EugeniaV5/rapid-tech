@@ -3,10 +3,11 @@
   @@include('html/head.html',{ 'title':'Privacy & Cookie policy' })
 
   <body>
-    @@include('html/header.html',{})
+    @@include('html/header.html',{}) @@include('html/mobile-menu.html',{})
     <main>@@include('html/policy.html',{})</main>
     @@include('html/footer.html',{}) @@include('html/credentials.html',{})
 
-    <script src="js/app.js"></script>
-  </body>
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/modal.js"></script>
+   
 </html>

@@ -64,6 +64,41 @@
     <a class="header__contact-link button" href="./#contacts">Contact us</a>
   </div>
 </header>
+ <!-- Mobile pop-up menu -->
+<div class="mobile-menu" data-menu>
+  <div class="mobile-menu__head-wrapper">
+    <a href="./">
+      <svg class="header__logo" width="91px" height="26px">
+        <use href="img/sprite.svg#small-logo"></use>
+      </svg>
+    </a>
+    <button class="burger-btn" type="button" data-menu-close>
+      <svg class="burger-btn__icon" width="24px" height="24px">
+        <use href="img/sprite.svg#x"></use>
+      </svg>
+    </button>
+  </div>
+  <nav>
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#principles">Principles</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#services">Services</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#about-us">About Us</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#values">Values</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="./#contacts">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+  <a class="mobile-nav__contact-link" href="./#contacts">Contact us</a>
+</div>
 
     <main><!-- Thank you  -->
 
@@ -151,6 +186,8 @@ https://shapoval.agency/?utm_source=dev&utm_medium=site&utm_campaign=rapidtech"
   </div>
 </section>
 
-    <script src="js/app.js"></script>
+
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/modal.js"></script>
   </body>
 </html>

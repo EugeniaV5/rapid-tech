@@ -3,9 +3,11 @@
   @@include('html/head.html',{ 'title':'Success' })
 
   <body>
-    @@include('html/header.html',{})
+    @@include('html/header.html',{}) @@include('html/mobile-menu.html',{})
     <main>@@include('html/thank-you.html',{})</main>
     @@include('html/footer.html',{}) @@include('html/credentials.html',{})
-    <script src="js/app.js"></script>
+
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/modal.js"></script>
   </body>
 </html>
