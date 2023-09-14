@@ -1,5 +1,3 @@
-
-
 function testWebPFunction() {
   function testWebP(callback) {
     let webP = new Image();
@@ -17,3 +15,4 @@ function testWebPFunction() {
 
 testWebPFunction();
 
+const heroVideo = document.getElementsByTagName("video");
