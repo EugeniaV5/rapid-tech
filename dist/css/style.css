@@ -897,12 +897,10 @@ video {
 .help__link:hover,
 .help__link:focus {
   background-color: var(--BaseBlue-500);
-  text-decoration: underline;
 }
 
 .help__link:active {
   background-color: var(--BaseBlue-700);
-  text-decoration: underline;
 }
 
 .values__text-block {
