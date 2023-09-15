@@ -88,7 +88,6 @@ video {
   @media screen and (min-width: 624px) {
     display: flex;
     justify-content: end;
-    // max-width: 584px;
     width: 50%;
 
     margin: 0;
@@ -145,6 +144,97 @@ video {
 
   @media screen and (min-width: 1280px) {
     @include font(700, 20px, 26px);
+  }
+}
+
+.first-slide__title {
+  margin-bottom: 30px;
+  @media screen and (min-width: 440px) {
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 624px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 863px) {
+    margin-bottom: 40px;
+  }
+}
+.second-slide__title {
+  margin-bottom: 30px;
+  @media screen and (min-width: 440px) {
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 624px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 863px) {
+    margin-bottom: 40px;
+  }
+}
+
+.third-slide__title {
+  margin-bottom: 20px;
+  @media screen and (min-width: 352px) {
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 624px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 687px) {
+    margin-bottom: 40px;
+  }
+}
+
+.fourth-slide__title {
+  margin-bottom: 10px;
+  @media screen and (min-width: 358px) {
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 358px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 524px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 585px) {
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 624px) {
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 727px) {
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1031px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 20px;
+  }
+}
+
+.fifth-slide__title {
+  margin-bottom: 20px;
+  @media screen and (min-width: 405px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 624px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 687px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 808px) {
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 993px) {
+    margin-bottom: 20px;
+  }
+}
+
+.sixth-slide__title {
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 15px;
   }
 }
 
