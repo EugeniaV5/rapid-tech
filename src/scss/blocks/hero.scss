@@ -79,6 +79,9 @@ video {
 .hero__sub-title {
   @include font(400, 16px, 20.8px);
   text-transform: uppercase;
+  @media screen and (min-width: 1280px) {
+    @include font(400, 20px, 26px);
+  }
 }
 
 .hero__swiper {
@@ -131,16 +134,26 @@ video {
     right: -238px;
     bottom: -62px;
   }
+  @media screen and (min-width: 1280px) {
+    padding: 24px;
+  }
 }
 
 .slide__title {
   margin-bottom: 10%;
   @include font(700, 16px, 20.8px);
+
+  @media screen and (min-width: 1280px) {
+    @include font(700, 20px, 26px);
+  }
 }
 
 .slide__text {
   @include font(400, 14px, 18.2px);
   color: rgba(255, 255, 255, 0.5);
+  @media screen and (min-width: 1280px) {
+    @include font(400, 16px, 20.8px);
+  }
 }
 
 .slide__text-short {
@@ -213,6 +226,9 @@ video {
   position: absolute;
   width: 98px !important;
   left: 16px !important;
+  @media screen and (min-width: 1280px) {
+    left: 24px !important;
+  }
 }
 
 .swiper-pagination-horizontal {

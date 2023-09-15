@@ -85,10 +85,15 @@
 
 .values__item {
   position: relative;
+  height: 288px;
   z-index: 999;
   padding: 32px 24px;
 
   background-color: var(--White-100);
+
+  @media screen and (min-width: 1280px) {
+    height: 250px;
+  }
 }
 
 .values__item-title {
