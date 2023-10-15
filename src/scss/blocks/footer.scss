@@ -4,7 +4,7 @@
 
   @media screen and (min-width: 1280px) {
     padding-top: 64px;
-    padding-bottom: 64px;
+    padding-bottom: 32px;
   }
 }
 
@@ -25,21 +25,32 @@
     background: var(--Graphite-100);
 
     @media screen and (min-width: 1280px) {
-      max-width: 1540px;
+      width: 92%;
     }
   }
 
   @media screen and (min-width: 1280px) {
-    // flex-direction: row;
-    // justify-content: space-between;
-    // align-items: center;
+    text-align: unset;
+    display: block;
+    width: 1280px;
+  }
+}
+
+.footer__logo-nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
   }
 }
 .footer__logo-link {
   margin-bottom: 38px;
 
   @media screen and (min-width: 1280px) {
-    margin-bottom: 32px;
+    margin-bottom: 0;
   }
 }
 
@@ -47,19 +58,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-  margin-bottom: 32px;
+  gap: 16px;
+  margin-bottom: 16px;
 
   @media screen and (min-width: 1280px) {
-    margin-bottom: 64px;
+    margin-bottom: 0;
   }
 }
 
 .footer_nav-item {
-  &:not(:last-child) {
-    margin-right: 16px;
-  }
-
   @include font(400, 14px, 18.2px);
   color: var(--Graphite-source);
   text-decoration: underline;
@@ -74,8 +81,9 @@
   }
 
   @media screen and (min-width: 1280px) {
-    &:not(:last-child) {
-      margin-right: 32px;
+    gap: 32px;
+    &:last-child {
+      display: none;
     }
     @include font(400, 20px, 26px);
 
@@ -83,8 +91,24 @@
   }
 }
 
-.address__address {
-  margin-bottom: 24px;
+.credentials__link {
+  display: none;
+  @media screen and (min-width: 1280px) {
+    display: block;
+    @include font(400, 14px, 18.2px);
+    color: var(--Graphite-source);
+
+    text-decoration: underline;
+  }
+}
+
+.footer__address-wrapper {
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+  }
 }
 
 .footer__address {
@@ -93,6 +117,8 @@
   font-style: normal;
 
   @media screen and (min-width: 1280px) {
+    width: 576px;
     @include font(400, 16px, 20.8px);
+    text-align: left;
   }
 }

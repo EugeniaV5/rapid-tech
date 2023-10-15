@@ -30,30 +30,12 @@ button::-moz-focus-inner {
 }
 
 .section-title {
-  // width: auto;
-  // height: 69px;
   margin-bottom: 24px;
   font-family: var(--font);
   @include font(700, 26px, 36.4px);
   text-transform: uppercase;
 
-  background: linear-gradient(
-    90deg,
-    rgba(37, 169, 224, 0) 0%,
-    #25a9e0 53.15%,
-    rgba(37, 169, 224, 0) 100%
-  );
-
-  // background-image: linear-gradient(60deg, #e21143, #ffb03a);
-
-  -webkit-background-clip: text;
-  background-clip: text;
-  // -webkit-background-clip: transparent;
-  color: transparent;
-  // background-color: red;
-  // color: #000;
-
-  -webkit-text-fill-color: transparent;
+  color: var(--BaseBlue-200);
 
   @media screen and (min-width: 1280px) {
     margin-bottom: 48px;
